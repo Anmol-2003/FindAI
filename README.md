@@ -9,5 +9,5 @@
 - It boasts a 99.5% accuracy on content classification.
 
 **Examples**
-![FindAI screenshot]('images/human.png')
-![FindAI screenshot]('images/gpt.png')
+![FindAI screenshot]('./images/human.png')
+![FindAI screenshot]('./images/gpt.png')
