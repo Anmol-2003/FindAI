@@ -1,0 +1,85 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f8f9f9; /* Header background color */
+    padding: 20px; /* Padding around header content */
+    text-align: center; /* Center-align header text */
+    position: relative;
+}
+
+header img {
+    position: absolute; /* Position the logo absolutely */
+    top: 50%; /* Position the logo at the center vertically */
+    left: 20px; /* Adjust left position of the logo */
+    transform: translateY(-50%); /* Adjust for centering vertically */
+    height: 40px; /* Set the height of the logo */
+}
+
+header h1 {
+    margin: 0; /* Remove default margin for h1 */
+    font-size: 24px; /* Font size for header title */
+    color: #21ad8a; /* Text color for header title */
+}
+
+
+
+.container {
+    width: 300px;
+    margin: 10px auto 20px;
+    /* Adjusted margin, reduced top margin */
+    background-color: #ffff;
+    border-radius: 10px;
+    padding: 20px;
+    /* box-shadow: 0 2px 4px rgba(214, 213, 213, 0.1); */
+}
+
+
+textarea {
+    box-shadow: 5px 5px 5px #21ad8a;
+    width: calc(100% - 10px);
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+    /* Disable textarea resizing */
+    font-size: 14px;
+    /* Adjust font size */
+}
+
+button {
+    background-color: #21ad8a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    /* Smooth transition */
+}
+
+button:hover {
+    background-color: #448576;
+}
+
+/* Additional styling for response area */
+#response {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 1.6;
+    transition: opacity 0.5s ease;
+}
+
+.response-hidden {
+    opacity: 0; /* Hide the response */
+}
