@@ -9,5 +9,5 @@
 - It boasts a 99.5% accuracy on content classification.
 
 **Examples**
-![FindAI screenshot]('./images/human.png')
-![FindAI screenshot]('./images/gpt.png')
+![GPT Generated Text](https://github.com/Anmol-2003/FindAI/blob/main/images/gpt.png?raw=true "Title")
+![Human Written Text](https://github.com/Anmol-2003/FindAI/blob/main/images/human.png?raw=true "Title")
